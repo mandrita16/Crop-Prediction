@@ -1,8 +1,5 @@
 # Crop-Prediction
 
-markdown
-Copy
-Edit
 # 🌾 Crop Recommendation System (India)
 
 A machine learning–based crop recommendation system that suggests the best-suited crops based on soil and environmental conditions such as nitrogen (N), phosphorus (P), potassium (K), temperature, humidity, pH, and rainfall.
@@ -18,15 +15,9 @@ A machine learning–based crop recommendation system that suggests the best-sui
 
 ## 📁 Project Structure
 
-crop-prediction/
-├── crop-prediction.py # Main script
-├── crop_recommendation.csv # Dataset
-├── crop_distribution.png # Label distribution plot
-├── README.md # You are here
+![image](https://github.com/user-attachments/assets/7a2c79ca-75fc-4211-a49d-75a6dbd9d72f)
 
-markdown
-Copy
-Edit
+
 
 ## 🧠 Models Used
 
@@ -35,6 +26,7 @@ Edit
 - Voting Classifier (ensemble)
 - StandardScaler for normalization
 - LabelEncoder for target processing
+ 
 
 ## 📊 Dataset
 
@@ -45,7 +37,7 @@ The dataset includes the following features:
 - `rainfall`: Rainfall in mm
 - `label`: Target crop label (e.g., rice, maize, mango, etc.)
 
-> 📌 Note: This project currently uses a static CSV-based dataset for prediction. Streamlit UI and Google Maps integration will be added in the next version.
+
 
 ## 🛠️ Requirements
 
@@ -63,17 +55,14 @@ scikit-learn
 matplotlib
 seaborn
 xgboost
+
+
 🚀 How to Run
 Make sure you're in the crop-prediction directory and then:
-
-bash
-Copy
-Edit
 python crop-prediction.py
+
+
 📈 Sample Output
-matlab
-Copy
-Edit
 🎯 Cross-validation Accuracy (mean ± std): 96.00% ± 0.78%
 
 Predicted crops: ['orange' 'banana' 'cotton' 'maize' ...]
@@ -82,22 +71,11 @@ Predicted crops: ['orange' 'banana' 'cotton' 'maize' ...]
 
 📍 Google Maps API to fetch location and auto-fill soil data
 
-💡 Real-time fertilizer and crop recommendation system
 
-👩‍💻 Author
-Mandrita Dasgupta
-B.Tech CSE, Heritage Institute of Technology
-GitHub: @Mandrita16
 
-⭐️ If you find this project helpful, feel free to star it on GitHub!
+⭐️ If you find this project helpful,feel free to star it on GitHub!
 
-yaml
-Copy
-Edit
 
----
-
-Let me know if you'd like me to include badges, a license, or add sections like "Contributing" or "Demo Screenshots".
 
 
 
