@@ -27,11 +27,11 @@ your-repository-name with the actual repository name
 
 ## If you're using a virtual environment:
 
-bash
-
 python -m venv crop_env
+
 source crop_env/bin/activate  # On Windows: crop_env\Scripts\activate
-pip install -r requirements.txt
+
+
 
 ## 📁 Project Structure
 
