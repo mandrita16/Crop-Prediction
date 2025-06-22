@@ -45,10 +45,9 @@ Install required libraries in a virtual environment:
 
 ```bash
 pip install -r requirements.txt
-requirements.txt
-nginx
-Copy
-Edit
+
+paste this in requirements.txt file:
+
 numpy
 pandas
 scikit-learn
