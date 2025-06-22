@@ -61,10 +61,20 @@ pip install -r requirements.txt
 paste this in requirements.txt file:
 
 numpy
+
+
 pandas
+
+
 scikit-learn
+
+
 matplotlib
+
+
 seaborn
+
+
 xgboost
 
 
