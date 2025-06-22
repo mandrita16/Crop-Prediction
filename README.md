@@ -13,6 +13,19 @@ A machine learning–based crop recommendation system that suggests the best-sui
 - Automatically encodes categorical labels and scales features.
 - Cross-validation to evaluate model robustness.
 
+##  🚀 Clone This Repository
+To clone this project to your local machine:
+
+
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
+
+Make sure to replace:
+your-username with your GitHub username
+your-repository-name with the actual repository name
+
+
+
 ## 📁 Project Structure
 
 ![image](https://github.com/user-attachments/assets/7a2c79ca-75fc-4211-a49d-75a6dbd9d72f)
@@ -42,8 +55,6 @@ The dataset includes the following features:
 ## 🛠️ Requirements
 
 Install required libraries in a virtual environment:
-
-```bash
 pip install -r requirements.txt
 
 paste this in requirements.txt file:
