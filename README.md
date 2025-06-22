@@ -41,20 +41,18 @@ The dataset includes the following features:
 
 > 📌 Note: This project currently uses a static CSV-based dataset for prediction. Streamlit UI and Google Maps integration will be added in the next version.
 
-## 🛠️ Requirements
+requirements.txt
 
-Install required libraries in a virtual environment:
-
-```bash
-pip install -r requirements.txt
-
-requirements.txt:
+nginx
+Copy
+Edit
 numpy
 pandas
 scikit-learn
 matplotlib
 seaborn
 xgboost
+ 
 
 🚀 How to Run
 Make sure you're in the crop-prediction directory and then:
