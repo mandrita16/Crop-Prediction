@@ -56,8 +56,9 @@ seaborn
 xgboost
 
 
-🚀 How to Run
+## 🚀 How to Run
 Make sure you're in the crop-prediction directory and then:
+```bash
 python crop-prediction.py
 
 
@@ -65,7 +66,8 @@ python crop-prediction.py
 🎯 Cross-validation Accuracy (mean ± std): 96.00% ± 0.78%
 
 Predicted crops: ['orange' 'banana' 'cotton' 'maize' ...]
-📌 Future Work
+
+📌 Future Work:
 🌍 Streamlit Web App for farmer-friendly interface
 
 📍 Google Maps API to fetch location and auto-fill soil data
