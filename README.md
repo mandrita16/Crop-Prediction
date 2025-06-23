@@ -16,21 +16,24 @@ A machine learning–based crop recommendation system that suggests the best-sui
 ##  🚀 Clone This Repository
 To clone this project to your local machine:
 
-
+```bash
 git clone https://github.com/your-username/your-repository-name.git
 
 cd your-repository-name
+```
 
 Make sure to replace:
 your-username with your GitHub username
 your-repository-name with the actual repository name
 
 ## If you're using a virtual environment:
-
+```bash
 python -m venv crop_env
+```
 
+```bash
 source crop_env/bin/activate  # On Windows: crop_env\Scripts\activate
-
+```
 
 
 ## 📁 Project Structure
@@ -62,10 +65,11 @@ The dataset includes the following features:
 ## 🛠️ Requirements
 
 Install required libraries in a virtual environment:
+```bash
 pip install -r requirements.txt
-
+```
 paste this in requirements.txt file:
-
+```bash
 numpy
 
 
@@ -82,13 +86,13 @@ seaborn
 
 
 xgboost
-
+```
 
 ## 🚀 How to Run
 Make sure you're in the crop-prediction directory and then:
 ```bash
 python crop-prediction.py
-
+```
 
 📈 Sample Output
 🎯 Cross-validation Accuracy (mean ± std): 96.00% ± 0.78%
